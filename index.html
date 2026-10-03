@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XXX Community ($XXX)</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    body {
+      background-color: #0D0D12;
+      color: #FFFFFF;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 900;
+      letter-spacing: 1px;
+      background: linear-gradient(135deg, #FF007A, #7928CA);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .btn-buy {
+      background: linear-gradient(135deg, #FF007A, #7928CA);
+      color: #FFFFFF;
+      padding: 10px 22px;
+      border-radius: 30px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+    .btn-buy:hover {
+      box-shadow: 0 0 20px rgba(255, 0, 122, 0.5);
+      transform: translateY(-2px);
+    }
+    .hero {
+      text-align: center;
+      padding: 90px 20px 60px;
+      max-width: 850px;
+      margin: 0 auto;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(255, 0, 122, 0.12);
+      color: #FF007A;
+      border: 1px solid rgba(255, 0, 122, 0.3);
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+    .hero h1 {
+      font-size: 3.2rem;
+      font-weight: 900;
+      margin-bottom: 20px;
+      line-height: 1.2;
+    }
+    .hero p {
+      font-size: 1.15rem;
+      color: #A1A1AA;
+      margin-bottom: 32px;
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 40px auto 80px;
+      padding: 0 20px;
+    }
+    .stat-card {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 28px;
+      border-radius: 16px;
+      text-align: center;
+    }
+    .stat-card h3 {
+      font-size: 1.8rem;
+      color: #FF007A;
+      margin-bottom: 6px;
+    }
+    .stat-card p {
+      color: #A1A1AA;
+      font-size: 0.9rem;
+    }
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 800;
+      margin-bottom: 40px;
+    }
+    .roadmap {
+      max-width: 750px;
+      margin: 0 auto 80px;
+      padding: 0 20px;
+    }
+    .step {
+      background: rgba(255, 255, 255, 0.02);
+      border-left: 4px solid #FF007A;
+      padding: 20px 24px;
+      margin-bottom: 20px;
+      border-radius: 0 12px 12px 0;
+    }
+    .step h4 {
+      font-size: 1.15rem;
+      margin-bottom: 6px;
+    }
+    .step p {
+      color: #A1A1AA;
+      font-size: 0.95rem;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #52525B;
+      font-size: 0.85rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">XXX COMMUNITY</div>
+    <a href="#" class="btn-buy">Buy $XXX</a>
+  </header>
+
+  <section class="hero">
+    <span class="badge">100% DECENTRALIZED & COMMUNITY OWNED</span>
+    <h1>Power to the People. Driven by $XXX.</h1>
+    <p>No dev allocations, no central authority. Built purely for community raids, memes, and ecosystem expansion.</p>
+    <a href="#" class="btn-buy" style="font-size: 1.05rem; padding: 14px 32px;">Join Telegram</a>
+  </section>
+
+  <section class="stats-grid">
+    <div class="stat-card">
+      <h3>1,000,000,000</h3>
+      <p>Total Supply</p>
+    </div>
+    <div class="stat-card">
+      <h3>95%</h3>
+      <p>LP Burnt Forever</p>
+    </div>
+    <div class="stat-card">
+      <h3>0% / 0%</h3>
+      <p>Buy / Sell Tax</p>
+    </div>
+  </section>
+
+  <section class="roadmap">
+    <h2 class="section-title">Community Roadmap</h2>
+    <div class="step">
+      <h4>Phase 1: Foundation</h4>
+      <p>Token launch, liquidity lock, community social channels setup, and initial viral meme pushes.</p>
+    </div>
+    <div class="step">
+      <h4>Phase 2: Expansion</h4>
+      <p>DEX listings, CoinGecko & CoinMarketCap applications, and organized community raid campaigns.</p>
+    </div>
+    <div class="step">
+      <h4>Phase 3: Ecosystem</h4>
+      <p>Strategic CEX listings, community governance voting, and partnership initiatives.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 XXX Community ($XXX). All rights reserved. $XXX is a community-driven token with no expectation of financial return.</p>
+  </footer>
+
+</body>
+</html>
